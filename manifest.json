@@ -1,0 +1,41 @@
+{
+   "author": "Clearbit",
+   "background": {
+      "service_worker": "./static/js/background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "./static/css/content-widget.css" ],
+      "js": [ "./static/js/content-all.js", "./static/js/content-widget.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   }, {
+      "css": [ "./static/css/content-gmail.css" ],
+      "js": [ "./static/js/content-gmail.js" ],
+      "matches": [ "https://mail.google.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Instantly find emails for the right contacts at the right companies — for free",
+   "homepage_url": "https://connect.clearbit.com",
+   "host_permissions": [ "https://mail.google.com/" ],
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAom/28FHOZjhqXzaxZfLVyc2Kuw8zz4XmByfP4caLNMhv5nmUxvVnFp603h34TvCn/28neEnZTrC+RmjrEzsycSeysAA1XWls2BB9FAZjanVgRrg/MA68ylYoy+3Mvr+nHMw6iDeptrZvZMyhX+64U9a3dFiHpBdvSbZ6qZDSpDDIibZCLNBCUUQM7rNlNslRc96j+dZx+xLTvq8ik1zcu6Su44rn7ahC6F2hUrJHwzWlkjxRzDDElwdZPb6pVHyo37g0k/OuhsDfe9RQuTH0575ilWK4fNC8KNM9CsxpF/wIm6ajzAV+CXg0zRgiXHDTVZCcy1XGf3DIOJm94qt0EQIDAQAB",
+   "manifest_version": 3,
+   "name": "Clearbit Connect: Free, Verified B2B Emails",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "scripting", "declarativeNetRequest", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.2.2",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "static/media/*.svg", "sidebar.html" ]
+   }, {
+      "matches": [ "https://mail.google.com/*" ],
+      "resources": [ "pageWorld.js" ]
+   } ]
+}

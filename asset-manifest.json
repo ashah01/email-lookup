@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.js": "/static/js/main.js",
+    "main.css": "/static/css/main.40d9bef4.css",
+    "content-all.js": "/static/js/content-all.js",
+    "content-widget.js": "/static/js/content-widget.js",
+    "content-widget.css": "/static/css/content-widget.e823cf6f.css",
+    "content-gmail.js": "/static/js/content-gmail.js",
+    "content-gmail.css": "/static/css/content-gmail.7816fc14.css",
+    "background.js": "/static/js/background.js",
+    "sidebar.js": "/static/js/sidebar.js",
+    "sidebar.css": "/static/css/sidebar.40d9bef4.css",
+    "options.js": "/static/js/options.js",
+    "options.css": "/static/css/options.40d9bef4.css",
+    "static/js/633.2b390ffb.chunk.js": "/static/js/633.2b390ffb.chunk.js",
+    "pageWorld.js": "/pageWorld.js",
+    "static/media/weekly-visitor-report.png": "/static/media/weekly-visitor-report.1d96a84b49d3bcb672f5.png",
+    "static/media/tam-calculator.png": "/static/media/tam-calculator.827bbb64e61451a287e1.png",
+    "static/media/logo-dark-background.svg": "/static/media/logo-dark-background.694c5fdfa5b987bedbf1ff651800bbd8.svg",
+    "static/media/logo.svg": "/static/media/logo.ac08afdfc2a020a044811155154cc264.svg",
+    "index.html": "/index.html",
+    "options.html": "/options.html",
+    "sidebar.html": "/sidebar.html",
+    "static/media/flag.svg": "/static/media/flag.97666a8a12260042072fe0d7ca978e1e.svg",
+    "main.js.map": "/static/js/main.js.map",
+    "main.40d9bef4.css.map": "/static/css/main.40d9bef4.css.map",
+    "content-all.js.map": "/static/js/content-all.js.map",
+    "content-widget.js.map": "/static/js/content-widget.js.map",
+    "content-widget.e823cf6f.css.map": "/static/css/content-widget.e823cf6f.css.map",
+    "content-gmail.js.map": "/static/js/content-gmail.js.map",
+    "content-gmail.7816fc14.css.map": "/static/css/content-gmail.7816fc14.css.map",
+    "background.js.map": "/static/js/background.js.map",
+    "sidebar.js.map": "/static/js/sidebar.js.map",
+    "sidebar.40d9bef4.css.map": "/static/css/sidebar.40d9bef4.css.map",
+    "options.js.map": "/static/js/options.js.map",
+    "options.40d9bef4.css.map": "/static/css/options.40d9bef4.css.map",
+    "633.2b390ffb.chunk.js.map": "/static/js/633.2b390ffb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.js",
+    "static/css/main.40d9bef4.css"
+  ]
+}
