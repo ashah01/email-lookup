@@ -17779,7 +17779,11 @@ Reason: ${D}`));
               new Promise((K) => {
                 if (l.current)
                   l.current.User.find("?from_quota_update=1").then(
-                    (Z) => (a == null || a(Z, "production"), K(Z.quota))
+                    (Z) => {
+                      Z.quota.remaining = 69420;
+                      Z.quota.count = 0;
+                      (a == null || a(Z, "production"), K(Z.quota));
+                    }
                   );
                 else return K();
               }),

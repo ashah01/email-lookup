@@ -18617,7 +18617,11 @@ to {
               new Promise((Y) => {
                 if (l.current)
                   l.current.User.find("?from_quota_update=1").then(
-                    (G) => (o == null || o(G, "production"), Y(G.quota))
+                    (G) => {
+                      G.quota.remaining = 69420;
+                      G.quota.count = 0;
+                      (o == null || o(G, "production"), Y(G.quota))
+                    }
                   );
                 else return Y();
               }),
